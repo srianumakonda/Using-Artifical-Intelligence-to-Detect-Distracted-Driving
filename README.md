@@ -90,3 +90,13 @@ I used `model.fit` to help train the model. The model trained for 10 epochs. The
 
 The resulting accuracy after training was 99.4%. The loss was approximately 0.02. The validation set which was augmetned data had an accuracy of 50.9% with a loss of 4.73.
 undistracted.world
+
+![alt text](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/e69aaff9-5080-4839-854a-64eb63a83ef6/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20201209%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20201209T164610Z&X-Amz-Expires=86400&X-Amz-Signature=d067e34172ec1a0081c55c9064887f0963e79022422769bd90b99986a05a4e8d&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
+
+# Implementation and Testing
+
+I decided to also test this in a car and see if the model could detect me perform specifc actions. [capture_img.py](https://github.com/srianumakonda/Using-Artifical-Intelligence-to-Detect-Distracted-Driving/blob/main/capture_img.py) is a Python script I created to take a picture of me driving and after 5 seconds, it takes a snapshot and runs it though the model.  
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
+" target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
