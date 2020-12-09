@@ -20,8 +20,6 @@ The 10 classes in this dataset include:
 9. c8: hair and makeup
 10. c9: talking to passenger
 
-https://storage.googleapis.com/kaggle-competitions/kaggle/5048/media/output_DEb8oT.gif
 undistracted.world
 
-Inline-style: 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![alt text](https://storage.googleapis.com/kaggle-competitions/kaggle/5048/media/output_DEb8oT.gif)
