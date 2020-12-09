@@ -107,4 +107,5 @@ I made a demo video showing this, take a look below. Click on the image to take 
 Feel free to contact me if you have any questions, comments, concerns, whatever.
 
 Website link: [undistracted.world](undistracted.world)
+
 Article on our solution: [The number of car casualties every year > the number of casualties in WWI](https://elizabethtrykin.medium.com/the-number-of-car-casualties-every-year-the-number-of-casualties-in-ww1-e257fe7dcd41)
