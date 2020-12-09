@@ -89,7 +89,7 @@ _________________________________________________________________
 I used `model.fit` to help train the model. The model trained for 10 epochs. The optimizer used was the Adam optimizer, the loss function used was Categorical CrossEntropy, and the learning rate was kept at default (0.001).
 
 The resulting accuracy after training was 99.4%. The loss was approximately 0.02. The validation set which was augmetned data had an accuracy of 50.9% with a loss of 4.73.
-undistracted.world
+
 
 ![alt text](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/e69aaff9-5080-4839-854a-64eb63a83ef6/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20201209%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20201209T164610Z&X-Amz-Expires=86400&X-Amz-Signature=d067e34172ec1a0081c55c9064887f0963e79022422769bd90b99986a05a4e8d&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
 
@@ -101,3 +101,10 @@ I made a demo video showing this, take a look below. Click on the image to take 
 [![Alt text](http://i3.ytimg.com/vi/b_UgtKkOYVY/maxresdefault.jpg)](https://youtu.be/b_UgtKkOYVY)
 
 [capture_vid.py](https://github.com/srianumakonda/Using-Artifical-Intelligence-to-Detect-Distracted-Driving/blob/main/capture_vid.py) is another Python script that cna be used to help detect distracted driving live. It isn't the best way to code and I could've made it a lot more clean and efficient but it works well.
+
+# Extra Links
+
+Feel free to contact me if you have any questions, comments, concerns, whatever.
+
+Website link: [undistracted.world](undistracted.world)
+Article on our solution: [The number of car casualties every year > the number of casualties in WWI](https://elizabethtrykin.medium.com/the-number-of-car-casualties-every-year-the-number-of-casualties-in-ww1-e257fe7dcd41)
