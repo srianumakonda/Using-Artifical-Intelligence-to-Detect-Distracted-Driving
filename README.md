@@ -97,5 +97,7 @@ undistracted.world
 
 I decided to also test this in a car and see if the model could detect me perform specifc actions. [capture_img.py](https://github.com/srianumakonda/Using-Artifical-Intelligence-to-Detect-Distracted-Driving/blob/main/capture_img.py) is a Python script I created to take a picture of me driving and after 5 seconds, it takes a snapshot and runs it though the model. 
 
-I made a demo video showing this, take a look below: 
+I made a demo video showing this, take a look below. Click on the image to take a look at the video: 
 [![Alt text](http://i3.ytimg.com/vi/b_UgtKkOYVY/maxresdefault.jpg)](https://youtu.be/b_UgtKkOYVY)
+
+[capture_vid.py](https://github.com/srianumakonda/Using-Artifical-Intelligence-to-Detect-Distracted-Driving/blob/main/capture_vid.py) is another Python script that cna be used to help detect distracted driving live. It isn't the best way to code and I could've made it a lot more clean and efficient but it works well.
