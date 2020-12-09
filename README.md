@@ -27,9 +27,10 @@ Visual representation of all the classes (compressed in a gif):
 There are 1.1 million images. Approximately 90% of the images go to training (1 million images) with the other 10% (100,000 images) going to testing. THe 1 million images are then
 divided into 10 classes leaving each class with ~100,000 images. The images are given in a jpg file. The dataset also includes 2 csv files which aren't used as they're not required for this specific project.  
 
-#Data Preperation and Cleaning
+# Data Preperation and Cleaning
 
 Due to the fact that our dataset was a Kaggle dataset, it was very clean and easy to use. I used Tensorflow's ImageDataGenerator library to help upload the dataset and prepare it for training. In the jupyter notebook file, you will notice that I decided to play around with Data Augmentation and used that as my validation set. I wanted to see how the model would perform on augmented data which is why I wanted to test it. 
+
 The way the data was collected was that a webcam was placed on the handle on the passenger's side. It would then take a picture of the driving performing certain actions and use that as the dataset. Having augmented data could help when the webcam isn't installed perfectly in a car and has a bit of angle to it.
 I resized the images from a 640px by 480px to 100x by 100px. This will allow the model to process the image resulting in faster times while having enough detail to make a well enough prediction. 
 
@@ -43,7 +44,7 @@ As mentioned above, we use a Convolutional Neural Network to detect distracted d
 - ReLU
 - Dropout
 
-This format is used for 3 layers. The kernal size for the convolution is kept the same (3x3, no padding) along with maxpooling (2x2, no padding). Dropout is kept at the same value for all 3 layers (0.1). 
+This format is used for 3 layers. The kernal size for the convolution is kept the same (3x3, no padding) along with maxpooling (2x2, no padding). Dropout is kept at the same value for all 3 layers (0.1). The output activation at the end is softmax resulting in a probability distribution for each class. 
 
 Model summary:
 
@@ -85,4 +86,7 @@ _________________________________________________________________
 
 # Model Training
 
+I used `model.fit` to help train the model. The model trained for 10 epochs. The optimizer used was the Adam optimizer, the loss function used was Categorical CrossEntropy, and the learning rate was kept at default (0.001).
+
+The resulting accuracy after training was 99.4%. The loss was approximately 0.02. The validation set which was augmetned data had an accuracy of 50.9% with a loss of 4.73.
 undistracted.world
